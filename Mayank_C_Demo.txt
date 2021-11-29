@@ -1,0 +1,45 @@
+C Programmming Language:
+
+Programming: set of instructions/statements
+
+Language: Communication
+
+Human										Computer
+English	  ----> C, C++, Java		---->(Compiler/Translator)		Binary (0 or 1)
+
+
+English: High Level Language
+
+Binary: Low Level Language
+
+Compiler/Translator: 
+- HLL convert it into LLL
+- LLL convert it into HLL
+
+Decimal: 0 to 9: 10
+Binary: 0 or 1: 2
+
+Electronic Device:--> current flow ---> 1 ---> No current flow ----> 0
+
+1. Turbo C++
+2. Code::Blocks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
