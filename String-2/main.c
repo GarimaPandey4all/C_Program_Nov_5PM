@@ -3,35 +3,42 @@
 
 int main()
 {
-    char str1[10];
+    char str[10];
     char str2[10];
+    char fullName[20];
 
-    printf("Enter any string:");
-    gets(str1);
+    printf("Enter any string-1:");
+    gets(str);
 
-    printf("Enter any string:");
+    printf("Enter any string-2:");
     gets(str2);
 
+//    printf("Length of the String: %d\n", strlen(str));
+//    printf("Uppercase of the String: %s\n", strupr(str));
+//    printf("Lowercase of the String: %s\n", strlwr(str));
 
-//    printf("Length of the String:%d\n", strlen(str));
-//    printf("Uppercase String: %s\n", strupr(str));
-//    printf("Lowercase String: %s\n", strlwr(str));
+//    printf("String 1 is copying into String 2: %s\n", strcpy(str2, str));
+//    printf("String 1 is copying into String 2: %s\n", strcpy(str2, "Delhi"));
+//    printf("String 2 is: %s\n", str2);
 
+//    concatenation/joining
+//    printf("Concatenation/joining of two string is: %s\n", strcat(str, str2));
 
-    //printf("String 1 is copying in String 2: %s", strcpy(str2, str1));
-    //printf("String 1 is copying in String 2: %s\n", strcpy(str2, "Delhi"));
+    //String Compare
 
-    //printf("String 1 is concatenated/joined to String 2: %s", strcat(str1, str2));
+//    str = abc
+//    str2 = aac
+//
+//    ASCII:
+//        a-z: 97 to 122
+//        A-Z: 65 to 90
 
-//    str1 = abc
-//    str2 = bac
-
-    if(strcmp(str1, str2) == 0)
+    if(strcmp(str, str2) == 0)
     {
-        printf("Both the Strings are Same");
+        printf("Both the Strings are same");
     }
     else {
-        printf("Not Same Strings");
+        printf("Not the same Strings");
     }
 
     return 0;

@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-//
-//string: collection of characters or more than one character
-//internally string is character array
+
+//string: Collection of characters or more than one character
 
 int main()
 {
@@ -12,7 +11,7 @@ int main()
     //scanf("%s", &name);
     gets(name);
 
-    //puts(name);
+    puts(name);
     printf("Your name is: %s", name);
 
     return 0;
