@@ -4,28 +4,36 @@ using namespace std;
 
 namespace first {
 
-    int value = 500;
-}
-
-namespace second {
-    int value = 800;
+    int x = 600;
 
     int func()
     {
-        return value;
+       return x;
+    }
+}
+
+namespace second {
+
+    int x = 800;
+
+    int func()
+    {
+        return x;
     }
 }
 
 //global variable
-//int value = 500;
+//int x = 600;
 
 int main()
 {
     //local variable
-    int value = 100;
+    int x = 500;
 
-    cout<<value<<endl;
-    cout<<first::value<<endl;
+    cout<<x<<endl;
+    cout<<first::x<<endl;
+    cout<<second::x<<endl;
+    cout<<first::func()<<endl;
     cout<<second::func()<<endl;
 
     return 0;

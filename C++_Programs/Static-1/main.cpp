@@ -2,32 +2,27 @@
 
 using namespace std;
 
-class Student {
-
-private:
-    int age;
-    static int marks;
+class Demo {
 
 public:
-    void setData(int age)
+    static void func()
     {
-        this->age = age;
+        cout<<"This is static method"<<endl;
     }
 
-    void getData()
+    void print()
     {
-        cout<<age<<" "<<marks<<endl;
+        cout<<"print method";
     }
-
 };
-
-int Student ::marks = 576; // initialize static variable
 
 int main()
 {
-    Student obj;
-    obj.setData(12);
-    obj.getData();
+    Demo :: func(); // calling of static function without using object of class.
+    // ::  - scope resolution operator
+
+    Demo obj;
+    obj.print();
 
     return 0;
 }
