@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1636873266 source:e:\core-programming-batches\c++_programs_eve\stl-1\main.cpp
+	<iostream>
+	<array>
+
